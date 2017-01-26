@@ -14,7 +14,7 @@ while(1):
     cv2.imshow('frame', fgmask)
     k = cv2.waitKey(30) & 0xff
     if k == 27:
-        break
+        breakP
 
 cap.release()
 cv2.destroyAllWindows()
